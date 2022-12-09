@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+
+nav, ul, li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 0 20px 0 50px;
+    margin-right: 2rem;
+    color: white;
+    background-color: rgb(20, 18, 18);
+    position: sticky;
+}
+
+li {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'poppins';
+}
+
+li:hover {
+    color: yellow;
+}
+
+nav {
+    width: 100%;
+}
+
+img {
+    width: 76px;
+    height: 60px;
+}
