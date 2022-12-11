@@ -1,0 +1,5 @@
+@media (max-width: 780px) {
+    .slider-thumb3, .slider-thumb {
+        display: none;
+    }
+}
