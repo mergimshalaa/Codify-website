@@ -5,6 +5,10 @@
     height: 100vh;
 }
 
+body {
+    background-color: rgb(223, 203, 203, 0.5);
+}
+
 
 nav, ul, li {
     display: flex;
@@ -45,6 +49,7 @@ img {
     width: 100%;
     overflow: hidden;
     line-height: 0;
+    margin-top: 3.7rem;
 }
 
 .custom-shape-divider-top-1670781977 svg {
@@ -52,7 +57,6 @@ img {
     display: block;
     width: calc(122% + 1.3px);
     height: 720px;
-    margin-top: 3.7rem;
     opacity: .7;
 }
 
