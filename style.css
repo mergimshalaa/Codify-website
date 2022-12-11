@@ -18,6 +18,7 @@ nav, ul, li {
     position: sticky;
 }
 
+
 li {
     font-weight: bold;
     font-size: 20px;
@@ -35,4 +36,26 @@ nav {
 img {
     width: 76px;
     height: 60px;
+}
+
+.custom-shape-divider-top-1670781977 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1670781977 svg {
+    position: relative;
+    display: block;
+    width: calc(122% + 1.3px);
+    height: 720px;
+    margin-top: 3.7rem;
+    opacity: .7;
+}
+
+.custom-shape-divider-top-1670781977 .shape-fill {
+    fill: #F8E71C;
 }
