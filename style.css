@@ -138,3 +138,13 @@ img {
     transform: translate3d(0,-3px,0) rotateZ(0.01deg);
   }
 }
+
+
+#text {
+  color: white;
+  font-size: 85px;
+  font-weight: bold;
+  font-family: 'poppins';
+  margin-top: 15rem;
+  margin-left: 15%;
+}
