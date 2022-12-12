@@ -21,13 +21,26 @@
             </ul>
         </nav>
     </div>
-    <div class="slider-thumb"></div>
-    <div class="slider-thumb2"></div>
-    <div class="slider-thumb3"></div>
-        <div>
-            <button>About Us</button>
-        <button>Learn More</button>
-        </div>
-        
+    <div class="contentForTxt">
+        <div id="text"></div>
+    </div>
+    
+    
+    <script>
+        const headingOne = document.getElementById('text')
+            const txt = 'WELCOME TO CODIFY.'
+
+            let i = 0;
+
+            const stopId = setInterval(function() {
+                headingOne.innerHTML += txt[i];
+                i++;
+
+                if (i === txt.length) {
+                    clearInterval(stopId);
+
+                }
+            },100)
+    </script>
 </body>
 </html>
