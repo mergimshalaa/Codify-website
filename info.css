@@ -41,3 +41,7 @@ img {
     font-size: 3rem;
     border-radius: 50px;
 }
+
+video {
+    object-fit: cover;
+}
