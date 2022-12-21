@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: monospace;
 }
 body {
     background: linear-gradient(90deg,#b3661f,#ff8a00);
